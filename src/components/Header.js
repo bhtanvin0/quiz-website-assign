@@ -8,8 +8,8 @@ const Header = () => {
         <div className='relative flex items-center justify-between'>
           <a
             href='/'
-            aria-label='proReader'
-            title='proReader'
+            aria-label='proQuizer'
+            title='proQuizer'
             className='inline-flex items-center'
           >
             <svg
@@ -28,7 +28,7 @@ const Header = () => {
               <rect x='14' y='11' width='7' height='12' />
             </svg>
             <span className='ml-2 text-xl font-bold tracking-wide text-gray-800'>
-              proReader
+              proQuizer
             </span>
           </a>
           <ul className='flex items-center hidden space-x-8 lg:flex'>
