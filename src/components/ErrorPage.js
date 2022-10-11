@@ -9,7 +9,7 @@ const ErrorPage = () => {
         <h1 className='text-4xl'>Ops! An Error Ocurred!</h1>
         {error && (
           <div>
-            <p className='text-red-600'>{error.statusText || error.message}</p>
+            <p className='text-red-500'>{error.statusText || error.message}</p>
             <p>{error.status}</p>
           </div>
         )}
