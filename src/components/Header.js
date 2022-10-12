@@ -147,22 +147,22 @@ const Header = () => {
                       </li>
                       <li>
                       <Link
-                          href='/books'
-                          aria-label='Books'
-                          title='Books'
+                          href='/statistics'
+                          aria-label='Statistics'
+                          title='Statistics'
                           className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                         >
-                          Books
+                          Statistics
                        </Link>
                       </li>
                       <li>
                       <Link
-                          href='/about'
-                          aria-label='About Us'
-                          title='About Us'
+                          href='/blog'
+                          aria-label='Blog'
+                          title='Blog'
                           className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                         >
-                          About Us
+                          Blog
                       </Link>
                       </li>
                     </ul>

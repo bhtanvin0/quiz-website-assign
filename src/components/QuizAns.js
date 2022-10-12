@@ -2,9 +2,20 @@
 import React from 'react';
 import { BeakerIcon } from '@heroicons/react/24/solid'
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const QuizAns = ({question}) => {
     const {question:qz, options, correctAnswer, id} = question;
+    const notify = () => toast("Wow so easy!");
+
+    if (question.correctAnswer){
+        toast.success('right')
+    }
+    else {
+        toast.wrong('wrong')
+    }
 
 
 
@@ -16,10 +27,12 @@ const QuizAns = ({question}) => {
             <div >
                 {
                     options.map(option =>
-                <li option= {option} className='border-3 border-blue-300 p-3 hover:bg-slate-400 text-center text-white'> {option}</li>
+                <li onClick={notify} option= {option} className='border-3 border-blue-300 p-3 hover:bg-slate-400 text-center text-white'> {option}
+                </li>
                     )
                 }
             </div>
+            <ToastContainer />
         </div>
     );
 };
