@@ -1,5 +1,7 @@
 
 import React from 'react';
+import { BeakerIcon } from '@heroicons/react/24/solid'
+
 
 const QuizAns = ({question}) => {
     const {question:qz, options, correctAnswer, id} = question;
@@ -9,7 +11,8 @@ const QuizAns = ({question}) => {
     
     return (
         <div className='m-20 border-4 bg-blue-500 p-3 my-3 '>
-            <h1 className='mb-4 text-xl font-medium text-center text-white'>Quiz: {qz}</h1>
+            <BeakerIcon className="h-6 w-6 text-blue-500"/>
+            <h1 className='mb-4 text-2xl font-medium text-center text-white'>Quiz: {qz}</h1>
             <div >
                 {
                     options.map(option =>
