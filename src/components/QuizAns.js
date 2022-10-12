@@ -1,20 +1,25 @@
 
 import React from 'react';
-import { BeakerIcon } from '@heroicons/react/24/solid'
+
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
+
 const QuizAns = ({question}) => {
     const {question:qz, options, correctAnswer, id} = question;
-    const notify = (option) => {;
+    const eye = (params)=>{
+        toast.success( correctAnswer)
+    }
+    const notify = (option) => {
 
-    if (correctAnswer==option){
+    if (option==correctAnswer){
         toast.success('right')
     }
     else {
-        toast.wrong('wrong')
+        // toast.wrong('wrong')
+        toast('wrong')
     }
 }
     
@@ -24,7 +29,7 @@ const QuizAns = ({question}) => {
     
     return (
         <div className='m-20 border-4 bg-blue-500 p-3 my-3 '>
-            <BeakerIcon className="h-6 w-6 text-blue-500"/>
+            <div><img onClick={eye} className='w-5' src="https://i.ibb.co/vZs8PrP/eye-slash-solid.png" alt="eye-slash-solid" border="0"/></div>
             <h1 className='mb-4 text-2xl font-medium text-center text-white'>Quiz: {qz}</h1>
             <div >
                 {
