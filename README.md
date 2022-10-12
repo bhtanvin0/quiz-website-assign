@@ -3,7 +3,7 @@
 A simple React app built with React & React Router Dom.
 
 ## Live Link
-Hosted in Netlify -> [proReader](https://proreader.netlify.app/)
+Hosted in Netlify -> [Quiz&Quiz](https://melodic-figolla-36f3f1.netlify.app/)
 
 ## API 
 
