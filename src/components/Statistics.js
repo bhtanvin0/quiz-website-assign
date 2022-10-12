@@ -28,13 +28,13 @@ const Statistics = () => {
         },
       ];
     return (
-        <div className="m-0 bg-blue-600 p-0">
+        <div className="m-0 bg-blue-500 p-20">
       <ResponsiveContainer width="100%" height={400}>
-        <LineChart width={500} height={400} data={data}>
+        <LineChart  width={500} height={400} data={data}>
           <Line type="monotone" dataKey="total" stroke="#fff" />
           <Tooltip />
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" />
+          <CartesianGrid  strokeDasharray="3 3" />
+          <XAxis  dataKey="name" />
           <YAxis dataKey="total" />
         </LineChart>
       </ResponsiveContainer>

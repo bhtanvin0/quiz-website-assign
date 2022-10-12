@@ -30,15 +30,11 @@ const Blog = () => {
                   height='24'
                 />
               </svg>
-              <span className='relative'>A</span>
+              <span className='relative'>Some</span>
             </span>{' '}
-            reader lives a thousand lives before he dies
+            Important Questions Answer For The Job Contest
           </h2>
-          <p className='text-base text-gray-700 md:text-lg'>
-            Books are a uniquely portable magic. Books serve to show a man that
-            those original thoughts of his aren’t very new after all. The man
-            who does not read good books is no better than the man who can’t.
-          </p>
+          
         </div>
       </div>
       <div className='max-w-screen-xl sm:mx-auto'>
@@ -46,86 +42,56 @@ const Blog = () => {
           <div className='space-y-8'>
             <div>
               <p className='mb-4 text-xl font-medium'>
-                Books are a uniquely portable magic.
+              What React Router Used For?
               </p>
               <p className='text-gray-700'>
-                Space, the final frontier. These are the voyages of the Starship
-                Enterprise. Its five-year mission: to explore strange new
-                worlds.
-                <br />
-                <br />
-                Many say exploration is part of our destiny, but it’s actually
-                our duty to future generations.
+              React Router is a fully-featured client and server-side routing library for React, a JavaScript library for building user interfaces. React Router runs anywhere React runs; on the web, on the server with node.js, and on React Native.
               </p>
             </div>
             <div>
               <p className='mb-4 text-xl font-medium'>
-                The first mate and his Skipper too will do?
+              How Does Context API Work?
               </p>
               <p className='text-gray-700'>
-                Well, the way they make shows is, they make one show. That
-                show's called a pilot.
-                <br />
-                <br />
-                Then they show that show to the people who make shows, and on
-                the strength of that one show they decide if they're going to
-                make more shows. Some pilots get picked and become television
-                programs.Some don't, become nothing. She starred in one of the
-                ones that became nothing.
+              The React Context API is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on. Context is also touted as an easier, lighter approach to state management using Redux.
               </p>
             </div>
             <div>
               <p className='mb-4 text-xl font-medium'>
-                Is the Space Pope reptilian!?
+              How does useRef Work in React?
               </p>
               <p className='text-gray-700'>
-                A flower in my garden, a mystery in my panties. Heart attack
-                never stopped old Big Bear. I didn't even know we were calling
-                him Big Bear.
+              useRef returns a mutable ref object whose .current property is initialized to the passed argument ( initialValue ). The returned object will persist for the full lifetime of the component. Essentially, useRef is like a “box” that can hold a mutable value in its .current property.
               </p>
             </div>
           </div>
           <div className='space-y-8'>
             <div>
               <p className='mb-4 text-xl font-medium'>
-                How much money you got on you?
+              What React Router Used For?
               </p>
               <p className='text-gray-700'>
-                The first mate and his Skipper too will do their very best to
-                make the others comfortable in their tropic island nest.
-                <br />
-                <br />
-                Michael Knight a young loner on a crusade to champion the cause
-                of the innocent. The helpless. The powerless in a world of
-                criminals who operate above the law. Here he comes Here comes
-                Speed Racer. He's a demon on wheels.
+              React Router is a fully-featured client and server-side routing library for React, a JavaScript library for building user interfaces. React Router runs anywhere React runs; on the web, on the server with node.js, and on React Native.
               </p>
             </div>
             <div>
               <p className='mb-4 text-xl font-medium'>
-                Galaxies Orion's sword globular star cluster?
+              How Does Context API Work?
               </p>
               <p className='text-gray-700'>
-                A business big enough that it could be listed on the NASDAQ goes
-                belly up. Disappears!
-                <br />
-                <br />
-                It ceases to exist without me. No, you clearly don't know who
-                you're talking to, so let me clue you in.
+              The React Context API is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on. Context is also touted as an easier, lighter approach to state management using Redux.
               </p>
             </div>
             <div>
               <p className='mb-4 text-xl font-medium'>
-                When has justice ever been as simple as a rule book?
+              How does useRef Work in React?
               </p>
               <p className='text-gray-700'>
-                This is not about revenge. This is about justice. A lot of
-                things can change in twelve years, Admiral. Well, that's
-                certainly good to know. About four years. I got tired of hearing
-                how young I looked.
+              useRef returns a mutable ref object whose .current property is initialized to the passed argument ( initialValue ). The returned object will persist for the full lifetime of the component. Essentially, useRef is like a “box” that can hold a mutable value in its .current property.
               </p>
             </div>
           </div>
+          
         </div>
       </div>
     </div>
